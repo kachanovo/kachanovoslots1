@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Kachanovo Slots 🎰</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Kachanovo Slots 🎰</h1>
+        <div class="balance">Баланс: <span id="balance">100</span>$</div>
+        <button id="cabinetBtn">👤 Кабінет</button>
+        <div class="slot-machine">
+            <img class="slot" src="assets/img/apple.png" id="slot1">
+            <img class="slot" src="assets/img/cherry.png" id="slot2">
+            <img class="slot" src="assets/img/lemon.png" id="slot3">
+        </div>
+        <div class="controls">
+            <input type="number" id="bet" value="5" min="1">
+            <button onclick="spin()">Крутити</button>
+        </div>
+    </div>
+</body>
+</html>
